@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:textColor="@color/txtColor"
+    android:orientation="vertical"
+
+    tools:context="com.studio.skyline.dhammapada.HomeActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DHAMMAPADA"
+        android:textColor="#325201"
+        android:layout_marginTop="30sp"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Przedmowa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="60sp"/>
+
+    <TextView
+        android:text="Wprowadzenie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textSize="25sp"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Dhammapada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="25sp"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Ogólne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center"
+
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:src="@drawable/treedarkergreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="125dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+
+        android:id="@+id/imageView"
+        android:layout_weight="0.11" />
+
+</LinearLayout>
