@@ -21,31 +21,23 @@
         android:textStyle="normal|bold"
         android:textAllCaps="false"
         android:fontFamily="sans-serif"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:layout_weight="0.10" />
 
     <TextView
-        android:text="Przedmowa"
+        android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView8"
+        android:layout_marginTop="30sp"
+        android:text="Dhammapada"
         android:textAlignment="center"
-        android:textSize="25sp"
-        android:layout_marginTop="60sp"/>
+        android:textSize="25sp" />
 
     <TextView
         android:text="Wprowadzenie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView9"
-        android:textSize="25sp"
-        android:layout_marginTop="30sp"
-        android:textAlignment="center" />
-
-    <TextView
-        android:text="Dhammapada"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView10"
         android:textSize="25sp"
         android:layout_marginTop="30sp"
         android:textAlignment="center" />
