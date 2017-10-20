@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,7 +7,6 @@
     android:background="@color/background"
     android:textColor="@color/txtColor"
     android:orientation="vertical"
-
     tools:context="com.studio.skyline.dhammapada.HomeActivity"
     android:weightSum="1">
 
@@ -63,14 +61,13 @@
         android:id="@+id/textView" />
 
     <ImageView
-        android:src="@drawable/treedarkergreen"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="125dp"
-        android:layout_gravity="center"
-        android:visibility="visible"
-
         android:id="@+id/imageView"
-        android:layout_weight="0.11" />
+        android:layout_width="100dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+
+        android:src="@drawable/treedarkergreen"
+        android:visibility="visible" />
 
 </LinearLayout>
