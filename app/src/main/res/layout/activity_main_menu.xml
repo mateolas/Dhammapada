@@ -7,11 +7,12 @@
     android:background="@color/background"
     android:textColor="@color/txtColor"
     android:orientation="vertical"
-    tools:context="com.studio.skyline.dhammapada.HomeActivity"
+    tools:context="com.studio.skyline.dhammapada.MainMenu"
     android:weightSum="1">
 
 
     <TextView
+        android:id="@+id/tv_Header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DHAMMAPADA"
@@ -25,16 +26,19 @@
         android:layout_weight="0.10" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/tv_MainMenu_Dhammapada"
         android:layout_width="match_parent"
+        android:textColor="#325201"
         android:layout_height="wrap_content"
         android:layout_marginTop="30sp"
         android:text="Dhammapada"
+        android:onClick="onDhammapadaTVclick"
         android:textAlignment="center"
         android:textSize="25sp" />
 
     <TextView
         android:text="Wprowadzenie"
+        android:textColor="#325201"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView9"
@@ -46,20 +50,21 @@
         android:text="Ogólne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#325201"
         android:textSize="25sp"
         android:layout_marginTop="30sp"
         android:textAlignment="center"
-
         android:id="@+id/textView" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
+        android:layout_width="138dp"
         android:layout_height="81dp"
         android:layout_gravity="center"
         android:layout_marginTop="125dp"
 
         android:src="@drawable/treedarkergreen"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:layout_weight="0.06" />
 
 </LinearLayout>

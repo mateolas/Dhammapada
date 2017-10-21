@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_spis_tresci"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:textColor="@color/txtColor"
+    android:orientation="vertical"
+    tools:context="com.studio.skyline.dhammapada.DhammaChapters">
+
+    <TextView
+        android:id="@+id/tv_Chapters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozdziały"
+        android:textColor="#325201"
+        android:layout_marginTop="30sp"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="#fdf5e6"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_Chapters_1_Pary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:onClick="onChaptersParyTVclick"
+        android:layout_marginLeft="15dp"
+        android:text="Pary"
+        android:textColor="#325201"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_Chapters_2_Uwaznosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:onClick="onChaptersUwaznoscTVclick"
+        android:layout_marginLeft="15dp"
+        android:text="Uważność"
+        android:textColor="#325201"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_Chapters_3_Umysl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:onClick="onChaptersUmyslTVclick"
+        android:layout_marginLeft="15dp"
+        android:text="Umysł"
+        android:textColor="#325201"
+        android:textSize="18sp" />
+
+
+
+
+
+
+</LinearLayout>
