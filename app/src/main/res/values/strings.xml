@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Dhammapada</string>
     <string name="title_activity_main_content">MainContentActivity</string>
+    <string name="title_activity_chapter_1__pary">Chapter_1_Pary</string>
 </resources>
