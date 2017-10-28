@@ -12,11 +12,15 @@
         android:orientation="vertical">
 
         <TextView
+            android:textColor="#325201"
             android:id="@+id/sentenceTextID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
-            android:textSize="18sp"/>
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
 
     </LinearLayout>
 </LinearLayout>

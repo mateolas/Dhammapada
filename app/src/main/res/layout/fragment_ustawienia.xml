@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:textColor="@color/txtColor"
+    tools:context="com.studio.skyline.dhammapada.Fragment_Ustawienia">
+
+    <TextView
+        android:id="@+id/tv_Ustawienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ustawienia"
+        android:textColor="#325201"
+        android:layout_marginTop="30sp"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="#fdf5e6"
+        android:textAlignment="center" />
+
+</FrameLayout>

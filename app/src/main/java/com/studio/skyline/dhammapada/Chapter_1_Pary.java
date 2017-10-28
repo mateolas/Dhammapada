@@ -21,31 +21,22 @@ public class Chapter_1_Pary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chapter_1__pary);
 
-        //creating an instance of CustomListAdpater
-        //feeding data arrays into it
-        //tell ListView to use in
+        /******************************************
+        Creating an instance of CustomListAdpater
+        Feeding data arrays into it
+        Tell ListView to use in
+        *******************************************/
 
         //creates an instance of our CustomListAdapter and gives the data arrays as a parameter
-        CustomListAdapter whatever = new CustomListAdapter(this,sentenceArray);
+        CustomListAdapter adapterPary = new CustomListAdapter(this,sentenceArray);
 
         //gets a reference to the actual ListView object from the activity_chapter_1_pary
         listView = (ListView)findViewById(R.id.lv_Rozdzial1_Pary);
 
         //tells the ListView to use our adapter
-        listView.setAdapter(whatever);
+        listView.setAdapter(adapterPary);
     }
 
 
-    //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-    //setSupportActionBar(toolbar);
-
-    //FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-    //fab.setOnClickListener(new View.OnClickListener() {
-    //    @Override
-    //    public void onClick(View view) {
-    //        Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-    //               .setAction("Action", null).show();
-    //   }
-    //});
 }
 

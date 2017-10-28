@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -11,6 +13,11 @@
     android:weightSum="1">
 
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false">
     <TextView
         android:id="@+id/tv_Header"
         android:layout_width="match_parent"
@@ -47,7 +54,7 @@
         android:textAlignment="center" />
 
     <TextView
-        android:text="Ogólne"
+        android:text="O tłumaczeniu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#325201"
@@ -56,15 +63,29 @@
         android:textAlignment="center"
         android:id="@+id/textView" />
 
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="138dp"
-        android:layout_height="81dp"
+        android:layout_width="161dp"
+        android:layout_height="108dp"
         android:layout_gravity="center"
-        android:layout_marginTop="125dp"
-
+        android:layout_marginTop="100dp"
+        android:layout_weight="0.06"
         android:src="@drawable/treedarkergreen"
-        android:visibility="visible"
-        android:layout_weight="0.06" />
+        android:visibility="visible" />
+    </LinearLayout>
 
-</LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_marginTop="67dp"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>
+
+
+

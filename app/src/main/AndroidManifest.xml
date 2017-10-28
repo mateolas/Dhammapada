@@ -19,7 +19,10 @@
         <activity
             android:name=".Chapter_1_Pary"
             android:label="@string/title_activity_chapter_1__pary"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"></activity>
     </application>
 
 </manifest>
