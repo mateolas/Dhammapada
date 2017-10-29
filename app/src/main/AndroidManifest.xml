@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityDhammaChapters" />
+        <activity android:name=".ActivityChapters" />
         <activity
             android:name=".ActivityChapter1Pary"
             android:label="@string/title_activity_chapter_1__pary"

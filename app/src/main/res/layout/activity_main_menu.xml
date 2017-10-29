@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/navigation_main_menu" />
 
 </RelativeLayout>
 
