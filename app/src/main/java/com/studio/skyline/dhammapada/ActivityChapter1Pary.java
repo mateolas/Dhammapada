@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
-public class Chapter_1_Pary extends AppCompatActivity {
+public class ActivityChapter1Pary extends AppCompatActivity {
 
     String[] sentenceArray =
             {"1. Zdanie 1",

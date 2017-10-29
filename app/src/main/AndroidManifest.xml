@@ -8,16 +8,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainMenu">
+        <activity android:name=".ActivityMainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DhammaChapters" />
+        <activity android:name=".ActivityDhammaChapters" />
         <activity
-            android:name=".Chapter_1_Pary"
+            android:name=".ActivityChapter1Pary"
             android:label="@string/title_activity_chapter_1__pary"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity

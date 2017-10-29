@@ -9,7 +9,7 @@
     android:background="@color/background"
     android:textColor="@color/txtColor"
     android:orientation="vertical"
-    tools:context="com.studio.skyline.dhammapada.MainMenu"
+    tools:context="com.studio.skyline.dhammapada.ActivityMainMenu"
     android:weightSum="1">
 
 

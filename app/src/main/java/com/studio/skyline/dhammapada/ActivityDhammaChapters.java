@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class DhammaChapters extends AppCompatActivity {
+public class ActivityDhammaChapters extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +14,7 @@ public class DhammaChapters extends AppCompatActivity {
     }
 
     public void onChaptersParyTVclick(View v) {
-        Intent myIntent = new Intent(getBaseContext(), Chapter_1_Pary.class);
+        Intent myIntent = new Intent(getBaseContext(), ActivityChapter1Pary.class);
         startActivity(myIntent);
     }
 }

@@ -7,7 +7,7 @@
     android:background="@color/background"
     android:textColor="@color/txtColor"
     android:orientation="vertical"
-    tools:context="com.studio.skyline.dhammapada.DhammaChapters">
+    tools:context="com.studio.skyline.dhammapada.ActivityDhammaChapters">
 
     <TextView
         android:id="@+id/tv_Chapters"

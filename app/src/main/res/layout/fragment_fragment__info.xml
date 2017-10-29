@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_spis_tresci"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
     android:textColor="@color/txtColor"
-    android:orientation="vertical"
-    tools:context="com.studio.skyline.dhammapada.ActivityDhammaChapters">
+    tools:context="com.studio.skyline.dhammapada.Fragment_Ustawienia">
 
     <TextView
-        android:id="@+id/tv_Chapters"
+        android:id="@+id/tv_Info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Rozdział 1"
+        android:text="Info"
         android:textColor="#325201"
         android:layout_marginTop="30sp"
         android:textSize="30sp"
@@ -23,10 +20,4 @@
         android:backgroundTint="#fdf5e6"
         android:textAlignment="center" />
 
-    <ListView
-        android:id="@+id/lv_Rozdzial1_Pary"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-
-</LinearLayout>
+</FrameLayout>
