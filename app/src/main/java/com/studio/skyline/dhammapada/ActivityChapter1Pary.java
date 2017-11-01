@@ -14,8 +14,6 @@ public class ActivityChapter1Pary extends AppCompatActivity {
 
     ListView listView;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,8 +33,11 @@ public class ActivityChapter1Pary extends AppCompatActivity {
 
         //tells the ListView to use our adapter
         listView.setAdapter(adapterPary);
+
+
+        }
     }
 
 
-}
+
 
