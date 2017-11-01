@@ -7,30 +7,33 @@
     android:layout_height="wrap_content">
 
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <TextView
-            android:textColor="#325201"
             android:id="@+id/sentenceTextID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
-            android:textSize="16sp"
-            android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            />
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="#325201"
+            android:textSize="16sp" />
 
-    <ImageView
-        android:id="@+id/heart_empty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/sentenceTextID"
-        android:layout_marginEnd="14dp"
-        android:layout_marginRight="14dp"
-        app:srcCompat="@drawable/heart_selector" />
-</RelativeLayout>
+        <ToggleButton
+            android:id="@+id/toggle_favourite"
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/heart_selector"
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
 
 </LinearLayout>
